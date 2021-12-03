@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1 {
+    margin: 30px;
+}
+
+.addStudent{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.updateInfo{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.getStudent{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+input{
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 1 rem;
+    margin: 20px 0;
+    border: 3px solid lightblue;
+    border-radius: 5px;
+}
+button{
+    width: 50%;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 10px 0;
+    margin-left: 25%;
+    background-color: rgb(171, 40, 231);
+    color: whitesmoke;
+    border: 3px solid lightblue;
+    border-radius: 10px;
+}
+p{
+    font-size: large;
+}
+table{ 
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: medium;
+    min-width: 300px;
+    margin-bottom: 100px;
+}
+thead{
+    background-color: blueviolet;
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+}
+th{
+    padding: 12px 15px;
+}
+tr{
+    text-align: center;
+    border-bottom: 1px solid #dddddd;
+}
+tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+tr:last-of-type{
+    border-bottom: 2px solid blueviolet;
+}
+td{
+    padding: 12px 15px;
+}
